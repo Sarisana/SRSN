@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="asset/pemesanan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="asset/Logo Bulet Kecil.png">
+    <title>Pemesanan</title>
+</head>
+<body>
+    <!-- loading -->
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+    <!-- loading -->
+
+    <!-- Navbar -->
+    <header class="header">
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        <button id="cart-status" class="cart-button">0 <i class="fas fa-shopping-cart"></i></button>
+        <nav class="Navbar" id="navbar">
+            <a href="index.html">Beranda</a>
+            <a href="Sejarah.html">Sejarah</a>
+            <a href="Alamat.html">Alamat</a>
+            <a href="Pemesanan.html" class="highlighted" >Pesan</a>
+        </nav>
+    </header>
+    <div class="bg-image">
+        <img src="asset/Header/Produk.png" alt="Background Image">
+    </div>
+    <!-- Navbar -->
+
+    <!-- ISI -->
+    <section class="item">
+        <section class="product-category" id="kain">
+          <h2>Udeng Lembaran</h2>
+          <br>
+          <div class="products">
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (1).jpg" alt="Udeng Lembar 1">
+              <h3>Udeng Lembar Putih Polos</h3>
+              <p>Rp. 60.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Lembar Putih Polos" data-price="60000" data-image="asset/Produk/Udeng Lembar (1).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (2).png" alt="Udeng Lembar 2">
+              <h3>Batik Tulis Warna Biru Gelap</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Tulis Warna Biru Gelap" data-price="150000" data-image="asset/Produk/Udeng Lembar (2).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (3).png" alt="Udeng Lembar 3">
+              <h3>Batik Tulis Warna Biru</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Tulis Warna Biru" data-price="150000" data-image="asset/Produk/Udeng Lembar (3).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (4).png" alt="Udeng Lembar 4">
+              <h3>Batik Semi Tulis Warna Hitam dan Putih</h3>
+              <p>Rp. 70.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Semi Tulis Warna Hitam dan Putih" data-price="70000" data-image="asset/Produk/Udeng Lembar (4).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (5).png" alt="Udeng Lembar 5">
+              <h3>Batik Semi Tulis Motif Bunga</h3>
+              <p>Rp. 70.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Semu Tulis Motif Bunga" data-price="70000" data-image="asset/Produk/Udeng Lembar (5).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (6).png" alt="Udeng Lembar 6">
+              <h3>Batik Tulis Warna Coklat</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Tulis Warna Coklat" data-price="150000" data-image="asset/Produk/Udeng Lembar (6).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (8).png" alt="Udeng Lembar 8">
+              <h3>Batik Semu Tulis Motif Berlian</h3>
+              <p>Rp. 70.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Semu Tulis Motif Berlian" data-price="70000" data-image="asset/Produk/Udeng Lembar (8).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Lembar (10).png" alt="Udeng Lembar 10">
+              <h3>Batik Semu Tulis Bermotif</h3>
+              <p>Rp. 70.000</p>
+              <button class="add-to-cart-btn" data-name="Batik Semu Tulis Bermotif" data-price="70000" data-image="asset/Produk/Udeng Lembar (10).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>           
+             <!-- Baguuan Udeng Lembaran -->
+          </div>
+        </section>
+      
+        <section class="product-category" id="other-products">
+          <h2>Udeng Setengah Jadi</h2>
+          <br>
+          <div class="products">
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (1).jpg" alt="Udeng Setengah">
+              <h3>Udeng Hitam Polos</h3>
+              <p>Rp. 40.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Hitam Polos" data-price="40000" data-image="asset/Produk/Udeng Setengah (1).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (2).jpg" alt="Udeng Setengah">
+              <h3>Udeng Putih Polos</h3>
+              <p>Rp. 40.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Putih Polos" data-price="40000" data-image="asset/Produk/Udeng Setengah (2).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (3).jpg" alt="Udeng Setengah">
+              <h3>Udeng Semi Songket Hijau</h3>
+              <p>Rp. 120.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Semi Songket Hijau" data-price="120000" data-image="asset/Produk/Udeng Setengah (3).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (4).jpg" alt="Udeng Setengah">
+              <h3>Udeng Semi Songket Merah</h3>
+              <p>Rp. 120.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Semi Songket Merah" data-price="120000" data-image="asset/Produk/Udeng Setengah (4).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (5).jpg" alt="Udeng Setengah">
+              <h3>Udeng Semi Songket Ungu</h3>
+              <p>Rp. 120.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Semi Songket Ungu" data-price="120000" data-image="asset/Produk/Udeng Setengah (5).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (7).jpg" alt="Udeng Setengah">
+              <h3>Udeng Batik Bungkulan Hitam</h3>
+              <p>Rp. 60.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Batik Bungkulan Hitam" data-price="60000" data-image="asset/Produk/Udeng Setengah (7).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Udeng Setengah (8).jpg" alt="Udeng Setengah">
+              <h3>Udeng Batik Bungkulan Coklat</h3>
+              <p>Rp. 60.000</p>
+              <button class="add-to-cart-btn" data-name="Udeng Batik Bungkulan Coklat" data-price="60000" data-image="asset/Produk/Udeng Setengah (8).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <!-- Bagian Udeng Setengah Jadi -->
+          </div>
+        </section>
+      </section>
+  
+      <section class="item">
+        <section class="product-category" id="kain">
+          <h2>Kamen</h2>
+          <br>
+          <div class="products">
+            <div class="product">
+              <img src="asset/Produk/Kamen (1).jpg" alt="Product 1">
+              <h3>Kamen Batik Tulis Motif Kotak</h3>
+              <p>Rp. 400.000</p>
+              <button class="add-to-cart-btn" data-name="Kamen Batik Tulis Motif Kotak" data-price="400000" data-image="asset/Produk/Kamen (1).jpg "><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Kamen (2).jpg" alt="Product 2">
+              <h3>Kamen Batik Tulis Motif Garis</h3>
+              <p>Rp. 400.000</p>
+              <button class="add-to-cart-btn" data-name="Kamen Batik Tulis Motif Garis" data-price="400000" data-image="asset/Produk/Kamen (2).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Kamen (3).jpg" alt="Product 3">
+              <h3>Kamen Batik Tulis Semanggi Motif Bunga</h3>
+              <p>Rp. 200.000</p>
+              <button class="add-to-cart-btn" data-name="Kamen Batik Tulis Semanggi Motif Bunga" data-price="200000" data-image="asset/Produk/Kamen (3).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Kamen (4).jpg" alt="Product 4">
+              <h3>Kamen Batik Tulis Semanggi</h3>
+              <p>Rp. 200.0000</p>
+              <button class="add-to-cart-btn" data-name="Kamen Batik Tulis Semanggi" data-price="200000" data-image="asset/Produk/Kamen (4).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Kamen (5).jpg" alt="Product 5">
+              <h3>Kamen Batik Tulis Semanggi Motif Garis</h3>
+              <p>Rp. 200.000</p>
+              <button class="add-to-cart-btn" data-name="Kamen Batik Tulis Semanggi Motif Garis" data-price="200000" data-image="asset/Produk/Kamen (5).jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <!-- Bagian Kamen -->
+          </div>
+        </section>
+      
+        <section class="product-category" id="other-products">
+          <h2>Saput</h2>
+          <br>
+          <div class="products">
+            <div class="product">
+              <img src="asset/Produk/Saput (1).png" alt="Saput">
+              <h3>Saput Bordir Warna Merah</h3>
+              <p>Rp. 160.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Bordir Warna Merah" data-price="160000" data-image="asset/Produk/Saput (1).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Saput (2).png" alt="Saput">
+              <h3>Saput Bordir Warna Ungu</h3>
+              <p>Rp. 160.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Bordir Warna Ungu" data-price="160000" data-image="asset/Produk/Saput (2).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Saput (3).png" alt="Saput">
+              <h3>Saput Songket Katun Merah</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Songket Katun Merah" data-price="150000" data-image="asset/Produk/Saput (3).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Saput (4).png" alt="Saput">
+              <h3>Saput Songket Katun Abu</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Songket Katun Abu" data-price="150000" data-image="asset/Produk/Saput (4).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Saput (5).png" alt="Saput">
+              <h3>Saput Songket Katun Ungu</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Songket Katun Ungu" data-price="150000" data-image="asset/Produk/Saput (5).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Saput (6).png" alt="Saput">
+              <h3>Saput Blangket Gringsing</h3>
+              <p>Rp. 200.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Blangket Gringsing" data-price="200000" data-image="asset/Produk/Saput (6).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="product">
+              <img src="asset/Produk/Saput (7).png" alt="Saput">
+              <h3>Saput Blangket Garis</h3>
+              <p>Rp. 150.000</p>
+              <button class="add-to-cart-btn" data-name="Saput Blangket Garis" data-price="150000" data-image="asset/Produk/Saput (7).png"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <!-- Bagian Saput -->
+          </div>
+        </section>
+      </section>
+
+      <section class="item">
+        <section class="product-category-sisa" id="sisa">
+          <h2>Produk Lain</h2>
+          <br>
+          <div class="products">
+            <div class="product">
+              <img src="asset/Produk/Kemeja Polos.jpg" alt="Product 1">
+              <h3>Kemeja Polos</h3>
+              <p>Rp. 120.000</p>
+              <button class="add-to-cart-btn" data-name="Kemeja Polos" data-price="120000" data-image="asset/Produk/Kemeja Polos.jpg"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <!-- Lagi? -->
+          </div>
+        </section>
+
+        <!-- Form Pemesanan -->
+        <form id="orderForm">
+          <h2>Pemesanan Udeng</h2>
+          <label for="head-size">Ukuran Kepala:</label>
+          <div class="input-group">
+            <input type="number" id="head-size" name="head-size" required min="0">
+            <span class="unit">cm</span>
+          </div>
+        
+          <label for="color">Warna:</label>
+          <p>Warna tersedia: Merah, Biru, Hijau, Kuning, Hitam, Putih</p>
+          <input type="text" id="color" name="color" required>
+        
+          <label for="pattern">Motif:</label>
+          <p>Motif tersedia: Polos, Batik, <a href="https://www.instagram.com/sarisana_udengbali/" target="_blank">Berbagai Macam Batik</a></p>
+          <input type="text" id="pattern" name="pattern" required>
+        
+          <label for="type">Pilihan:</label>
+          <select id="type" name="type" required>
+            <option value="">Setengah Jadi atau Jadi.....</option>
+            <option value="setengah-jadi">Setengah Jadi</option>
+            <option value="jadi">Jadi</option>
+          </select>
+        
+          <label for="note">Note (keterangan khusus):</label>
+          <textarea id="note" name="note" rows="4" cols="50"></textarea>
+          <p class="price-note">Catatan: Harga Udeng Kostum ditentukan setelah pemesanan.</p>
+          <button type="submit"><i class="fas fa-shopping-cart"></i></button>
+        </form>
+      </section>
+    <!-- ISI -->
+
+    <!-- Cart Pop-up Window -->
+    <div id="cart-popup" class="cart-popup">
+        <div class="cart-popup-content">
+        <span class="close-popup">&times;</span>
+        <h2>Keranjang</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: Rp. 0</p>
+        <p class="price-note">Catatan: Harga Udeng Kostum ditentukan setelah pemesanan.</p>
+        <button id="checkout-btn">Pesan Sekarang</button>
+        </div>
+    </div>
+    
+  <!-- footer -->
+  <footer>
+    <div class="footer-section logo-section">
+      <a href="Game.html">
+        <img src="asset/Header/Logo Bulet Kecil.png" alt="Company Logo" class="logo">
+    </a> 
+    </div>
+    <div class="footer-section nav-section">
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="Sejarah.html">Sejarah</a></li>
+                <li><a href="Alamat.html">Alamat</a></li>
+                <li><a href="Pemesanan.html">Pesan</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer-section social-media-section">
+      <a href="https://www.tiktok.com/@madewcfmo7n?_t=8pFHoxcq2Ex&_r=1" target="_blank" class="social-icon">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://wa.me/+6285179590346" target="_blank" class="social-icon">
+          <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/sarisana_udengbali/" target="_blank" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+  <!-- footer -->
+   
+<script src="asset/pemesanan.jsx"></script>
+
+</body>

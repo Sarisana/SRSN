@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Game</title>
+    <link rel="stylesheet" href="asset/game.css">
+    <link rel="icon" type="image/x-icon" href="asset/Logo Bulet Kecil.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- loading -->
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+    <!-- loading -->
+    
+    <!-- Navbar -->
+    <header class="header">
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        <a href="index.html" class="logo">
+            <img src="asset/Header/Logo Bulet Kecil.png" alt="Company Logo">
+        </a>
+        <nav class="Navbar" id="navbar">
+            <a href="index.html">Beranda</a>
+            <a href="Sejarah.html">Sejarah</a>
+            <a href="Alamat.html">Alamat</a>
+            <a href="Pemesanan.html" >Pesan</a>
+        </nav>
+    </header>
+
+    <!-- Welcome Video -->
+    <div id="NaiK">
+        <video autoplay loop muted plays-inline>
+            <source src="asset/Header/Vidio Beranda.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- Welcome Video -->
+    <!-- Navbar -->
+    
+    <!-- ISI -->
+    <div class="container">
+        <h1>Ayo selesaikan</h1>
+        <div class="game-board"></div>
+        <div id="congrats-message" class="hidden">Selamat anda sudah membuang waktu dan mendapat hadiah berupa hikmahnya saja :)</div>
+    </div>
+    <!-- ISI -->
+        
+  <!-- footer -->
+  <footer>
+    <div class="footer-section logo-section">
+        <a href="Game.html">
+            <img src="asset/Header/Logo Bulet Kecil.png" alt="Company Logo" class="logo">
+        </a>        
+    </div>
+    <div class="footer-section nav-section">
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="Sejarah.html">Sejarah</a></li>
+                <li><a href="Alamat.html">Alamat</a></li>
+                <li><a href="Pemesanan.html">Pesan</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer-section social-media-section">
+        <a href="https://www.tiktok.com/@madewcfmo7n?_t=8pFHoxcq2Ex&_r=1" target="_blank" class="social-icon">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://wa.me/+6288703293943" target="_blank" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/sarisana_udengbali/" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+  <!-- footer -->
+</body>
+
+<script src="asset/game.jsx"></script>
+
+</html>
